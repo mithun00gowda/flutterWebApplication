@@ -16,6 +16,7 @@ class _NavbarState extends State<Navbar> {
     return ScreenTypeLayout(mobile: MobileNavBar(), desktop: DesktopNavBar());
   }
 
+  // ========= Mobile view =============
   Widget MobileNavBar() {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 20),
@@ -26,6 +27,8 @@ class _NavbarState extends State<Navbar> {
       ),
     );
   }
+
+  // ========= Web view =============
 
   Widget DesktopNavBar() {
     return Container(
