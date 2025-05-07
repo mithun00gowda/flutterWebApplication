@@ -7,7 +7,7 @@ ButtonStyle borderButtonStyle = ButtonStyle(
   shape: WidgetStateProperty.all(
     RoundedRectangleBorder(
       side: BorderSide(color: AppColors.primary),
-      borderRadius: BorderRadius.circular(10),
+      borderRadius: BorderRadius.circular(5),
     ),
   ),
 );
